@@ -1,21 +1,23 @@
 //---------------------------------------------------------------------------
 
-#ifndef TaskManagerH
-#define TaskManagerH
+#ifndef TaskDataH
+#define TaskDataH
 //---------------------------------------------------------------------------
 #include <Classes.hpp>
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
 //---------------------------------------------------------------------------
-class TForm1 : public TForm
+class TTaskTemplate : public TForm
 {
 __published:	// IDE-managed Components
-private:	// User declarations
-public:		// User declarations
-        __fastcall TForm1(TComponent* Owner);
+private:
+
+public:
+int i;	
+        __fastcall TTaskTemplate(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm1 *Form1;
+extern PACKAGE TTaskTemplate *TaskTemplate;
 //---------------------------------------------------------------------------
 #endif

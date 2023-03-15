@@ -1,9 +1,9 @@
-object Form1: TForm1
-  Left = 357
-  Top = 420
+object TaskTemplate: TTaskTemplate
+  Left = 579
+  Top = 185
   Width = 1740
   Height = 675
-  Caption = 'Form1'
+  Caption = 'Task'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
